@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
 	title: "Mizuki",
 	subtitle: "One demo website",
 	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
+	siteStartDate: "2025-12-05", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
@@ -243,7 +243,7 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/Tomori77/Tomori_Mizuki",
 					external: true,
 					icon: "fa6-brands:github",
 				},
@@ -343,7 +343,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/43210316",
 		},
 		{
 			name: "Gitee",
