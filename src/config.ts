@@ -253,14 +253,12 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
-				/*
 				{
 					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					url: "https://gitee.com/",
 					external: true,
 					icon: "mdi:git",
 				},
-				*/
 			],
 		},
 		{
@@ -308,7 +306,6 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		/*
 		{
 			name: "Others",
 			url: "#",
@@ -331,7 +328,6 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		*/
 	],
 };
 
@@ -349,19 +345,16 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:bilibili",
 			url: "https://space.bilibili.com/43210316",
 		},
-		/*
 		{
 			name: "Gitee",
 			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			url: "https://gitee.com/",
 		},
-		*/
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/matsuzaka-yuki",
 		},
-		/*
 		{
 			name: "Codeberg",
 			icon: "simple-icons:codeberg",
@@ -372,7 +365,6 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:discord",
 			url: "https://discord.gg/MqW6TcQtVM",
 		},
-		*/
 	],
 };
 
