@@ -22,7 +22,7 @@ const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UT
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
 	subtitle: "One demo website",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://646677.xyz/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-12-05", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
@@ -39,11 +39,11 @@ export const siteConfig: SiteConfig = {
 		anime: true, // 番剧页面开关
 		diary: true, // 日记页面开关
 		friends: true, // 友链页面开关
-		projects: true, // 项目页面开关
-		skills: true, // 技能页面开关
+		projects: false, // 项目页面开关
+		skills: false, // 技能页面开关
 		timeline: true, // 时间线页面开关
 		albums: true, // 相册页面开关
-		devices: true, // 设备页面开关
+		devices: false, // 设备页面开关
 	},
 
 	// 顶栏标题配置
@@ -249,16 +249,18 @@ export const navBarConfig: NavBarConfig = {
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/43210316",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
+				/*
 				{
 					name: "Gitee",
 					url: "https://gitee.com/matsuzakayuki/Mizuki",
 					external: true,
 					icon: "mdi:git",
 				},
+				*/
 			],
 		},
 		{
@@ -306,6 +308,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
+		/*
 		{
 			name: "Others",
 			url: "#",
@@ -328,13 +331,14 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
+		*/
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/myavatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Charlotte",
-	bio: "The world is big, you have to go and see",
+	bio: "独立思考忠实于自己的内心,越朴素不虚荣所做出的选择会更实际而可行。",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -345,16 +349,19 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:bilibili",
 			url: "https://space.bilibili.com/43210316",
 		},
+		/*
 		{
 			name: "Gitee",
 			icon: "mdi:git",
 			url: "https://gitee.com/matsuzakayuki",
 		},
+		*/
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/matsuzaka-yuki",
 		},
+		/*
 		{
 			name: "Codeberg",
 			icon: "simple-icons:codeberg",
@@ -365,6 +372,7 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:discord",
 			url: "https://discord.gg/MqW6TcQtVM",
 		},
+		*/
 	],
 };
 

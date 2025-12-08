@@ -1,6 +1,6 @@
 ---
 title: "群友的小网站"
-published: 2025-012-08
+published: 2025-12-08
 pinned: true
 description: "群友发的小网站，让我偷偷存下来了0.o"
 tags: [Special, Website]
