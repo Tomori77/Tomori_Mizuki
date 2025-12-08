@@ -56,3 +56,8 @@ Article Editor/
 
 # .gitignore
 .gitignore
+
+# help files
+help/
+
+MizukiMarkdownAssistant.spec
