@@ -2,16 +2,18 @@
 title: 群友的小网站
 description: "群友发的小网站，让我偷偷存下来了0.o"
 published: 2025-12-08
+date: 2025-12-08
+pubDate: 2025-12-08
 draft: false
+encrypted: true
 pinned: true
+password: "272565323"
 tags: ["Special", "Website"]
 category: "Web"
-encrypted: true
-password: "272565323"
 ---
 
 #群友发的小网站
-    **准备圣诞了，希望大家不要沉迷在涩涩的世界中，群友给你整理出了一些不良网站，希望大家不要去登录！健康成长！**
+    希望大家不要沉迷在涩涩的世界中，群友给你整理出了一些不良网站，希望大家不要去登录！健康成长！
 
 http://www.55hphp.com
 http://www.55nana.com
