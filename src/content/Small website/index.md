@@ -1,15 +1,13 @@
 ---
-title: "群友的小网站"
-published: 2025-12-08
-pinned: true
+title: 群友的小网站
 description: "群友发的小网站，让我偷偷存下来了0.o"
-tags: ["Special", "Website"]
-category: Web
-author: "群友"
+published: 2025-12-08
 draft: false
+pinned: true
+tags: ["Special", "Website"]
+category: "Web"
 encrypted: true
-password: '272565323'
-date: 2025-12-08
+password: "272565323"
 ---
 
 #群友发的小网站
