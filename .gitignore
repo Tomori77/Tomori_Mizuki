@@ -45,15 +45,6 @@ src/pages/myself.astro
 # local admin tool (do not commit)
 Mizuki-Config-Manager/
 
-# local Trae documents (do not commit)
-.trae/documents/
-
-# local blog Config Manager (do not commit)
-blog-Config-Manager/
-
-# local blog Article Editor (do not commit)
-Article Editor/ 
-
 # .gitignore
 .gitignore
 
