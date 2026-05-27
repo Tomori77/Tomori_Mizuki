@@ -1,9 +1,9 @@
 ---
 title: RP-HUB搭建教程
-description: 群友发的小网站，让我偷偷存下来了0.o
-published: 2026-05-28
-date: 2026-05-28
-pubDate: 2026-05-28
+description: RP-HUB在Cloudflare的搭建教程
+published: 2026-05-27
+date: 2026-05-27
+pubDate: 2026-05-27
 draft: false
 encrypted: false
 pinned: true
