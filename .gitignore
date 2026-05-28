@@ -3,6 +3,8 @@ dist/
 
 # generated types
 .astro/
+demo
+plans
 
 # dependencies
 node_modules/
@@ -36,12 +38,14 @@ yarn.lock
 # ide
 .idea
 *.iml
+.claude
 
 cache/
 fuwari/
 src/data/myself.ts
 src/pages/myself.astro
 
+<<<<<<< HEAD
 # local admin tool (do not commit)
 Mizuki-Config-Manager/
 
@@ -61,3 +65,19 @@ Article Editor/
 help/
 
 MizukiMarkdownAssistant.spec
+=======
+# Bangumi generated data
+src/data/bangumi-data.json
+
+# Bilibili generated data
+src/data/bilibili-data.json
+
+# Lighthouse CI
+.lighthouseci/
+
+# Live2D editor source files
+*.psd
+*.psd~
+*.cmo3
+*.vtube.json
+>>>>>>> upstream/master
