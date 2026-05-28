@@ -79,6 +79,7 @@ category: Tutorial
    - 点击 **添加** → **机密**  
    - 变量名称：`RP_SYNC_PASSWORD`  
    - 值：自定义一个只有你知道的同步密码  
+   - 此密码用于同步设备与服务器信息
    ![图片描述 w-50%](/images/rp/19.png)  
    ![图片描述 w-50%](/images/rp/20.png)
 
