@@ -1,9 +1,9 @@
 ---
 title: RP-HUB搭建教程
 description: RP-HUB在Cloudflare的搭建教程
-published: 2026-05-27
-date: 2026-05-27
-pubDate: 2026-05-27
+published: 2026-05-28
+date: 2026-05-28
+pubDate: 2026-05-28
 draft: false
 encrypted: false
 pinned: true
@@ -18,6 +18,7 @@ category: Tutorial
 ##### 进不去自己想方法找魔法。本帖不教。
 
 ### 进入主页面，根据图片点击 Workers和Pages。
+![图片描述 w-50%](/rp/1.png)
 ![[1.png]]
 
 ### 第一次用Cloudflare，首次创建页面不同，自行寻找一下。
@@ -76,3 +77,5 @@ category: Tutorial
 # 有域名需求的可以在定义域设置
 ![[23.png]]
 ### 后续更新可能会更域名相关或者其它反馈的问题，也许吧，有时间就更。
+
+![图片描述 w-50%](./1.png)
