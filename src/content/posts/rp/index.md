@@ -39,14 +39,13 @@ category: Tutorial
 
 5. 部署完成后点击 **继续处理项目**。  
    ![图片描述 w-50%](/images/rp/6.png)
+   ![图片描述 w-50%](/images/rp/7.png) 
 
 ---
 
 ## 二、创建 R2 存储库
 
 1. 按照下图顺序进入 R2 并创建存储桶。  
-   ![图片描述 w-50%](/images/rp/7.png)  
-   ![图片描述 w-50%](/images/rp/8.png)  
    ![图片描述 w-50%](/images/rp/9.png)  
    ![图片描述 w-50%](/images/rp/10.png)
 
