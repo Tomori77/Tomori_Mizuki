@@ -58,3 +58,9 @@ category: web
 - 先购买一年后，在**控制台**续费且关闭**自动续费**
 
 ![示例费用截图](/images/web/2.png)
+
+## 绑定Cloudflare
+网上的教程很多，我就不重复编写了，直接百度搜都能搜到。
+[我把 Spaceship 域名托管到 Cloudflare，完整流程就两步_spaceship域名-CSDN博客](https://blog.csdn.net/qq_42072085/article/details/160965108)
+https://blog.csdn.net/qq_42072085/article/details/160965108
+可以看看这个自行绑定。
