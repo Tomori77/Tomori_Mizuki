@@ -1,8 +1,9 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
 import { glob } from "astro/loaders";
+import { z } from "astro/zod";
 
 const postsCollection = defineCollection({
-	loader: glob({ pattern: "**/*.md", base: "./src/content/posts" }),
+	loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/posts" }),
 	schema: z.object({
 		title: z.string(),
 		published: z.date(),
@@ -14,6 +15,8 @@ const postsCollection = defineCollection({
 		category: z.string().optional().nullable().default(""),
 		lang: z.string().optional().default(""),
 		pinned: z.boolean().optional().default(false),
+		comment: z.boolean().optional().default(true),
+		priority: z.number().optional(),
 		author: z.string().optional().default(""),
 		sourceLink: z.string().optional().default(""),
 		licenseName: z.string().optional().default(""),
@@ -22,8 +25,13 @@ const postsCollection = defineCollection({
 		/* Page encryption fields */
 		encrypted: z.boolean().optional().default(false),
 		password: z.string().optional().default(""),
+		passwordHint: z.string().optional().default(""),
+		hideHomeContent: z.boolean().optional(),
 
-		/* Custom permalink */
+		/* Posts alias */
+		alias: z.string().optional(),
+
+		/* Custom permalink - 自定义固定链接，优先级高于 alias */
 		permalink: z.string().optional(),
 
 		/* For internal use */
@@ -34,7 +42,7 @@ const postsCollection = defineCollection({
 	}),
 });
 const specCollection = defineCollection({
-	loader: glob({ pattern: "**/*.md", base: "./src/content/spec" }),
+	loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/spec" }),
 	schema: z.object({}),
 });
 export const collections = {
