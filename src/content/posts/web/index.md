@@ -24,10 +24,10 @@ category: web
 ## 1. 购买链接
 [Spaceship 官方商城](https://www.spaceship.com/zh/)  
 支持 **支付宝** 付款。
-
+![Spaceship 官方商城](/images/web/1.png)
 ## 2. 语言与币种设置
 在页面如下位置可修改语言和显示币种：  
-![语言币种设置位置](/images/web/1.png)
+![语言币种设置位置](/images/web/3.png)
 
 ## 3. 推荐域名后缀
 - 推荐 **.xyz** 的数字域名，例如：`666666.xyz`  
@@ -43,10 +43,7 @@ category: web
 
 ### 查看续费价格的位置
 在域名搜索结算界面可看到续费价格（见下图）：  
-![续费价格查看位置](/images/web/3.png)  
-
-另一参考图示：  
-![续费价格参考图](/images/web/4.png)  
+![续费价格查看位置](/images/web/4.png)  
 
 部分价格表也可参考：  
 ![价格表](/images/web/5.png)
@@ -56,7 +53,7 @@ category: web
 - 首年域名费：**4.54**  
 - 加上托管及其他费用：**5.9**（首年总计）
 - 先购买一年后，在**控制台**续费且关闭**自动续费**
-
+- 总价格在40-60之间
 ![示例费用截图](/images/web/2.png)
 
 ## 绑定Cloudflare
