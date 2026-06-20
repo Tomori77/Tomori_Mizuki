@@ -8,8 +8,9 @@ draft: false
 encrypted: false
 pinned: true
 tags:
+  - web
   - Proxy
-category: web
+category: Tutorial
 ---
 
 

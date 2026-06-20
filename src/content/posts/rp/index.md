@@ -8,7 +8,8 @@ draft: false
 encrypted: false
 pinned: true
 tags:
-  - Tutorial
+  - web
+  - rp
 category: Tutorial
 ---
 

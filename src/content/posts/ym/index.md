@@ -8,8 +8,9 @@ draft: false
 encrypted: false
 pinned: true
 tags:
+  - web
   - 域名
-category: web
+category: Tutorial
 ---
 
 
