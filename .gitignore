@@ -45,7 +45,6 @@ fuwari/
 src/data/myself.ts
 src/pages/myself.astro
 
-<<<<<<< HEAD
 # local admin tool (do not commit)
 Mizuki-Config-Manager/
 
@@ -65,7 +64,6 @@ Article Editor/
 help/
 
 MizukiMarkdownAssistant.spec
-=======
 # Bangumi generated data
 src/data/bangumi-data.json
 
@@ -80,4 +78,3 @@ src/data/bilibili-data.json
 *.psd~
 *.cmo3
 *.vtube.json
->>>>>>> upstream/master

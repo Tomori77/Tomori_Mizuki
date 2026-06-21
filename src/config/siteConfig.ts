@@ -4,8 +4,8 @@ import type { SiteConfig } from "../types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "Tomori's Blog",
+	subtitle: "记录生活与技术，在代码里写诗，在生活里写bug",
 	siteURL: "https://646677.xyz/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-12-05", // 站点开始运行日期，用于站点统计组件计算运行天数
 
@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
 		// 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
 		mode: "text-icon",
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "Tomori",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
 		icon: "assets/home/home.webp",
 		// 网站Logo图片路径
@@ -147,15 +147,15 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true,
-			title: "わたしの部屋",
+			title: "Hello, World",
 			switchable: true,
 
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"今天也准时下班了吗？",
+				"在编译器的红线里摸爬滚打O.0",
+				"重构永远在明天",
+				"凌晨三点的咖啡最好喝",
+				"人生呐~能不能放过我这一次~",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
