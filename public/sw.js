@@ -6,6 +6,9 @@ const PRECACHE_URLS = [
   '/offline/RP卡体检验收台.html',
   '/offline/世界书助手.html',
   '/offline/变量UI辅助制作.html',
+  '/offline/角色卡工坊.html',
+  '/offline/正则UI转化.html',
+  '/offline/CC角色卡协作台.html',
 ];
 
 self.addEventListener('install', (event) => {
