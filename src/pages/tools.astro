@@ -1,0 +1,28 @@
+---
+import ToolCard from "@components/features/tools/ToolCard.astro";
+import { PageHeader } from "@components/features/page-header";
+import MainGridLayout from "@layouts/MainGridLayout.astro";
+
+import { getToolsList } from "../data/tools";
+
+export const prerender = true;
+
+const toolsList = getToolsList();
+---
+
+<MainGridLayout title="工具" description="本地离线工具集合">
+	<div
+		class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32"
+	>
+		<div class="card-base z-10 px-9 py-6 relative w-full">
+			<PageHeader title="工具" subtitle="一些本地离线的实用小工具" />
+
+			<div
+				id="tools-grid"
+				class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 mb-6"
+			>
+				{toolsList.map((item) => <ToolCard tool={item} />)}
+			</div>
+		</div>
+	</div>
+</MainGridLayout>

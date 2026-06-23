@@ -133,6 +133,13 @@ export const navBarConfig: NavBarConfig = {
 		// 预设链接：归档
 		LinkPreset.Archive,
 
+		// 工具页面
+		{
+			name: "工具",
+			url: "/tools/",
+			icon: "material-symbols:handyman",
+		},
+
 		// 自定义一级下拉菜单示例：外部链接集合
 		{
 			name: "Links",

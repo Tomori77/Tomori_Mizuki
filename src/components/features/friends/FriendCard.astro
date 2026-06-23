@@ -13,7 +13,13 @@ interface Props {
 }
 
 const { friend } = Astro.props;
-const hostname = new URL(friend.siteurl).hostname;
+let hostname = "";
+try {
+	hostname = new URL(friend.siteurl).hostname;
+} catch {
+	const parts = friend.siteurl.split("/").filter(Boolean);
+	hostname = parts.length > 0 ? parts[parts.length - 1] : "本地页面";
+}
 ---
 
 <div
