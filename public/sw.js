@@ -9,6 +9,7 @@ const PRECACHE_URLS = [
   '/offline/角色卡工坊.html',
   '/offline/正则UI转化.html',
   '/offline/CC角色卡协作台.html',
+  '/offline/生图固定提示词助手.html',
 ];
 
 self.addEventListener('install', (event) => {

@@ -63,6 +63,14 @@ export const toolsData: ToolItem[] = [
 		url: "/offline/CC角色卡协作台.html",
 		tags: ["RP", "协作"],
 	},
+	{
+		id: 7,
+		title: "生图固定提示词助手",
+		emoji: "🖼️",
+		desc: "AI 生图固定提示词管理工具，帮助维护和管理生图 prompt 模板",
+		url: "/offline/生图固定提示词助手.html",
+		tags: ["AI", "生图"],
+	},
 ];
 
 export function getToolsList(): ToolItem[] {
