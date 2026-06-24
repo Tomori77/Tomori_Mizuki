@@ -3,13 +3,13 @@ const OFFLINE_PREFIX = '/offline/';
 
 // 新加工具时，在这里补上对应的路径
 const PRECACHE_URLS = [
-  '/offline/RP卡体检验收台.html',
-  '/offline/世界书助手.html',
-  '/offline/变量UI辅助制作.html',
-  '/offline/角色卡工坊.html',
-  '/offline/正则UI转化.html',
-  '/offline/CC角色卡协作台.html',
-  '/offline/生图固定提示词助手.html',
+  '/offline/RP卡体检验收台/',
+  '/offline/世界书助手/',
+  '/offline/变量UI辅助制作/',
+  '/offline/角色卡工坊/',
+  '/offline/正则UI转化/',
+  '/offline/CC角色卡协作台/',
+  '/offline/生图固定提示词助手/',
 ];
 
 self.addEventListener('install', (event) => {
